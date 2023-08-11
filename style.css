@@ -1,0 +1,78 @@
+body{
+    background-color: #30303A;
+    color: aliceblue;
+}
+
+.head{
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+p,h4{
+    margin: 0;
+}
+
+.google-search{
+    background-color: #44444e;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.google-search input{
+    background-color: transparent;
+    border-color: transparent;
+    color: aliceblue;
+    margin-left:10px;
+    width: 100%;
+}
+
+.google-search input:focus{
+    border-color: transparent;
+    outline: none;
+}
+
+.google-search-container{
+    display: flex;
+}
+
+.search-icon,.mic-icon{
+    width: 5rem;
+    background-color: #44444e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: .2rem;
+    cursor: pointer;
+}
+
+.title-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box{
+    display: flex;
+    padding: 10px;
+    background-color: #44444e;
+    font-size: small;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.content-box .desc{
+    margin-left: 10px;
+}
+small{
+    color: #b5b5b5;
+}
+
+.shortcut{
+    margin-top: 20px;
+}
